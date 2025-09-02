@@ -151,5 +151,3 @@ For questions or collaboration, reach out via GitHub Discussions/Issues or direc
 ---
 
 [dotnet-download]: https://dotnet.microsoft.com/en-us/download
-
-```
