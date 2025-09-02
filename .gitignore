@@ -1,0 +1,111 @@
+# Build folders
+[Bb]in/
+[Oo]bj/
+artifacts/
+out/
+
+# Visual Studio and IDEs
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dotCover
+_ReSharper*/
+.idea/
+.vscode/
+
+# Rider/IDE caches
+*.iml
+
+# Build results for different configurations and platforms
+**/[Bb]in/
+**/[Oo]bj/
+
+# Publish output (self-contained or framework-dependent publish)
+publish/
+**/publish/
+*.Publish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# NuGet packages and package caches (nupkg files, packages folder)
+*.nupkg
+# Uncomment if you keep a packages folder in the repo (older projects)
+packages/
+.nuget/
+.vcpkg/
+
+# VS test results / coverage
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.xml
+coverage*.info
+coverage*.json
+TestResult.xml
+
+# Logs and temp
+*.log
+logs/
+[Ll]ogs/
+*.tmp
+*.temp
+
+# Runtime files
+*.pid
+*.seed
+*.db
+*.db-journal
+*.sqlite
+*.local
+
+# ASP.NET / web / static files built by tools
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+
+# Frontend build outputs (if you build client assets)
+wwwroot/dist/
+wwwroot/build/
+
+# Secret / env files
+.env
+.env.*     # .env.production, .env.local, etc.
+
+# AppSettings - DO NOT commit production secrets
+# Add specific environment config files that contain live credentials to ignore:
+appsettings.*.Production.json
+appsettings.*.Secrets.json
+
+# Launch / local tooling that could contain secrets/URLs
+Properties/launchSettings.json
+launchSettings.json
+
+# Docker / compose overrides that often contain local creds
+docker-compose.override.yml
+docker-compose.*.local.yml
+
+# Misc
+*.DS_Store
+*.class
+*.log
+Thumbs.db
+
+# If you produce published assets / archives
+*.zip
+*.tar.gz
+*.7z
+
+# Large files / binaries
+*.exe
+*.dll
+*.pdb
+
+# Git LFS placeholder (if you use LFS for large binaries)
+# *.psd filter=lfs diff=lfs merge=lfs -text
+
+# End of file
